@@ -1,0 +1,32 @@
+{
+  "name": "simple-bot-messenger",
+  "version": "1.0.0",
+  "description": "creating a simple bot for messenger",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gndx/simple-bot-messenger.git"
+  },
+  "keywords": [
+    "bot",
+    "messenger",
+    "facebook"
+  ],
+  "engines": {
+    "node": "8.9.1"
+  },
+  "author": "Oscar Barajas <oscar@dragons.mx>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gndx/simple-bot-messenger/issues"
+  },
+  "homepage": "https://github.com/gndx/simple-bot-messenger#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "request": "^2.83.0"
+  }
+}
